@@ -521,14 +521,14 @@
                             }
                             
                             .call p {
-                                font-size: 22px;
+                                font-size: 21px;
                                 font-weight: bold;
                             }
                             
                             .call a {
                                 color: #302f2f;
                                 margin-top: 20px;
-                                font-size: 21px;
+                                font-size: 20px;
                             }
                             
                             .contact .call {
@@ -559,7 +559,7 @@
                             }
                             
                             .call a:hover {
-                                font-size: 22px;
+                                font-size: 21px;
                             }
                             
                             .social_icon a i:hover {
