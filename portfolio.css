@@ -319,7 +319,8 @@
                             }
                             
                             .skill_alt img {
-                                width: 97px;
+                                width: 100px;
+                                height: 90px;
                                 padding: 20px 20px 5px;
                                 position: relative;
                                 top: 0;
