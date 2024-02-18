@@ -725,8 +725,15 @@
                                 .skill_list {
                                     max-width: 135px;
                                 }
+                                .skill_name,
+                            .more_skills {
+                                color: #2e2a3d;
+                                text-align: left;
+                                font-size: 16px;
+                                letter-spacing: 0.5px;
+                            }
                                 .more_skills p {
-                                    font-size: 18px
+                                    font-size: 16px
                                 }
                                 .gridfilter {
                                     padding: 7px;
@@ -735,4 +742,6 @@
                                 div .portlist .websites_data {
                                     margin: 5px;
                                 }
+                                .grid_b .btn {
+                                  font-size: 14px
                             }
