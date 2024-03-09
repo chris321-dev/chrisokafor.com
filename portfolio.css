@@ -128,7 +128,7 @@
                             }
                             
                             .top_icon a:hover i {
-                                transform: scale(1.1);
+                                transform: scale(1.05);
                             }
                             
                             .About_me,
@@ -624,8 +624,9 @@
                                     font-size: 18px;
                                 }
                                 .Services .inner {
-                                    width: 300px;
-                                    max-width: 300px;
+                                    width: 330px;
+                                    max-width: 330px;
+                                    padding: 15px !important;
                                 }
                                 .portlist {
                                     margin: 5px 10px;
@@ -675,6 +676,7 @@
                                 .Services .inner {
                                     width: 360px;
                                     max-width: 360px;
+                                    padding: 30px !important;
                                 }
                             }
                             
@@ -683,8 +685,9 @@
                                     grid-template-columns: repeat(2, 1fr);
                                 }
                                 .Services .inner {
-                                    width: 300px;
-                                    max-width: 300px;
+                                    width: 305px;
+                                    max-width: 305px;
+                                    padding: 10px !important;
                                 }
                                 .btn_about {
                                     padding: 0 10px;
@@ -702,15 +705,9 @@
                             }
                             
                             @media (max-width: 374px) {
-                                .Services .inner {
-                                    padding: 30px 7px;
-                                }
                                 .call p,
                                 .call a {
-                                    font-size: 20px;
-                                }
-                                .call a {
-                                    font-size: 19px;
+                                    font-size: 19px !important;
                                 }
                                 .social_icon i {
                                     font-size: 29px;
@@ -719,8 +716,8 @@
                                     font-size: 19px;
                                 }
                                 .call .btn {
-                                    width: 280px;
-                                    max-width: 280px;
+                                    width: 305px;
+                                    max-width: 305px;
                                 }
                                 .skill_list {
                                     max-width: 135px;
@@ -744,4 +741,5 @@
                                 }
                                 .grid_b .btn a{
                                   font-size: 17.5px
+                                }
                             }
