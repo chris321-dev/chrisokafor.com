@@ -1,3 +1,14 @@
+//spinner loading
+const spinnerWrapper1 = document.querySelector(".spinner-wrapper");
+
+window.addEventListener("load", () => {
+  spinnerWrapper1.style.opacity = "0";
+        
+  setTimeout(() => {
+      spinnerWrapper1.style.display ="none";
+    }, 200)
+});
+
 // Get the button
 var mybutton = document.getElementById("backToTopBtn");
 
